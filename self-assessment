@@ -1,0 +1,25 @@
+### Development Experience
+
+For most of my twenty years of development, teaching, and consulting, I have been focused primarily on Microsoft .NET technologies. Early on, I did extensive object-oriented design and programming for custom Windows 
+desktop applications and data-driven ASP.NET web sites. These applications were generally developed using Windows Forms and Web Forms for the UI, along with a VB.NET code base for the business, data access, 
+and utility layers of the architecture. ADO.NET was used for CRUD operations against a SQl server database. Roughly eight years ago I transitioned into more plugin type of architectures for web and mobile development 
+using XP approaches that incorporated DDD and service-oriented architectures. In particular, these applications use the modern .NET stack for web development including responsive HTML, JavaScript/JQuery, Typescript, and Knockout 
+for binding on the UI side. HTML and JavaScript are currently my favorite technologies for front-end development as they are universally supported by all device types. Typescript provides an opportunity to work with JavaScript 
+in an object oriented manner. Combined with a binding framework such as Knockout, clean and maintainable UI code can be quickly developed.
+
+The backend is developed in C# using RESTful web service end points implemented in Web API. The Data access layer utilizes the Entity Framework ORM mapping tool against SQl Server. All data queries use LINQ within a service layer 
+to eliminate the need for stored procedures or inline T-SQL. Structure Map is used for dependency injenction accross all layers of the backend. I like this approach for the way it makes things easy to isolate, test, and extend. 
+The injecting of dependencies as interfaces using Structure Map along with design patterns such as Aggregate, Unit of Work, Unit of Work Factory, Repository, and Domain Events allows sections of code to be independently built 
+by various programmers at the same time. The isolation of dependencies means code can be refactored, extended, or added with minimal impact on existing systems.
+
+### Git Commands
+
+I am not currently very familiar with Git commands.
+
+### Continuing Education
+
+There are several ways I keep current with technology and approaches to software development and architecture. Early in my career, I took formal continuing education classes and earned my Microsoft Certified Solutions Developer certificate.
+I also went through H.O.T.T. .NET training while working at Ag Services. I then got heavily into researching good coding and development practices by reading books about design patterns, code refactoring, and agile development by authors such as 
+Martin Fowler, Kent Beck, etc. More recently, I have done a lot of research and reading of blogs by architecture experts such as Udi Dahan. In general, I always try to stay current with technology and architecture by reading and researching online.
+Stack Overflow is a site I use often to answer random technology or language-specific questions. I currently apply and fine-tune all of the latest methods and techniques with my own personal project called Virtual Pepper. This is a mobile
+online game I am building for playing the card game Pepper. Pepper is a regional variation of the game Euchre.
